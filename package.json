@@ -1,0 +1,13 @@
+{
+  "name": "learning_node",
+  "version": "0.0.1",
+  "description": "learning examples with examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luis <luis@loquesea.com>",
+  "license": "MIT",
+  "autorEmail": "luis@loquesea.com"
+}
