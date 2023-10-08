@@ -7,10 +7,6 @@ const zlib = require('zlib');
 
 const main = async () => {
     const readstream = fs.createReadStream("./src/data/import.csv")
-
-    const writestream = fs.createWriteStream("./src/data/export.csv")
-
-
     const myTransform  =  new Transform({
 
         objectMode: true,
