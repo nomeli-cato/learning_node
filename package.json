@@ -9,5 +9,11 @@
   "keywords": [],
   "author": "Luis <luis@loquesea.com>",
   "license": "MIT",
-  "autorEmail": "luis@loquesea.com"
+  "autorEmail": "luis@loquesea.com",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0"
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
 }
