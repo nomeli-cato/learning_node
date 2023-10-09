@@ -14,5 +14,6 @@ app.get("/heavy",(req, res) =>{
 app.listen(port, () =>{
     console.log(`App listening on port ${port}`)
     console.log(`worker pid=${process.pid}`)
+    // in the terminal test with npx loadtest -n 1200 -c 400 -k http://localhost:3000/heavy
 })
 
